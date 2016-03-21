@@ -152,9 +152,12 @@ node_packages=(
   caniuse-cmd
   diff-so-fancy
   eslint
+  eslint-config-airbnb
+  eslint-plugin-react
   gulp
   imageoptim-cli
   listg # list global node modules
+  prettyjson
   pure-prompt # nice prompt for zsh
 )
 npm install -g ${node_packages[@]}
